@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EA47402E-9F60-427B-8CCA-4CCB08E03A0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D513DD82-1126-4779-9C3C-E026B3E931CE}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BookAPI", "src\BookAPI\BookAPI.xproj", "{2810DF4D-1B68-4DA7-B53B-07C4B9F6ED9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2810DF4D-1B68-4DA7-B53B-07C4B9F6ED9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2810DF4D-1B68-4DA7-B53B-07C4B9F6ED9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2810DF4D-1B68-4DA7-B53B-07C4B9F6ED9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2810DF4D-1B68-4DA7-B53B-07C4B9F6ED9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2810DF4D-1B68-4DA7-B53B-07C4B9F6ED9D} = {EA47402E-9F60-427B-8CCA-4CCB08E03A0A}
+	EndGlobalSection
+EndGlobal
